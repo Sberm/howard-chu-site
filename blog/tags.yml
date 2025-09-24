@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+os:
+  label: os
+  permalink: /os
+  description: Operating system
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+linux:
+  label: Linux
+  permalink: /linux
+  description: Linux
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+perf:
+  label: perf
+  permalink: /perf
+  description: Linux perf tool
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+llvm:
+  label: LLVM
+  permalink: /llvm
+  description: LLVM Compiler Infrastructure

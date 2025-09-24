@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Howard Chu',
+  title: 'Howard Chu\'s Homepage',
   tagline: 'To eliminate all bugs',
   favicon: 'img/favicon.ico',
 
@@ -81,21 +81,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Home',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Howard Chu Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docSideBar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Doc',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/sberm/howard-chu-site',
             label: 'GitHub',
             position: 'right',
           },
@@ -108,7 +108,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs',
                 to: '/docs/intro',
               },
             ],
@@ -117,8 +117,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Linkedin',
-                href: 'https://www.linkedin.com/in/howard-chu-09a69b299/',
+                label: 'GitHub',
+                href: 'https://github.com/sberm/howard-chu-site',
               },
               {
                 label: 'X',
@@ -134,17 +134,18 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/sberm/howard-chu-site',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/howard-chu-09a69b299/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Howard Chu. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['bash', 'elixir']
       },
     }),
 };

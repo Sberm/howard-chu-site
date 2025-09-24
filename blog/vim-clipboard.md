@@ -5,9 +5,8 @@ authors: [howard]
 tags: [linux]
 date: 2023-09-17
 ---
-## Shared vim clipboard when using SSH
-
 1. For Windows, download MobaXterm or Xming; for Mac, download XQuartz as the X server. After downloading, open the application.
+<!-- truncate -->
 > Note that on Mac XQuartz works after I uncheck the `Enable Syncing`, and check it back again. [Link](https://stackoverflow.com/questions/47822357/how-to-use-x11-forwarding-to-copy-from-vim-to-local-machine)
 > And tmux doesn't work well on Mac's default Terminal.app. For sharing clipboard you need to install [tmux-yank](https://github.com/tmux-plugins/tmux-yank) plugin
 2. In the server's SSH configuration file located at `/etc/ssh/sshd_config`, enable `X11Forwarding yes`.

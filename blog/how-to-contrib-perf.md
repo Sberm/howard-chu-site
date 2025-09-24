@@ -5,8 +5,6 @@ authors: [howard]
 tags: [linux, perf, os]
 date: 2024-06-25
 ---
-## How to contribute to perf
-
 #### TL;DR:
 
 1. Clone the repo:
@@ -20,6 +18,8 @@ git checkout perf-tools-next
 # cd into the perf's directory
 cd tools/perf
 ```
+
+<!-- truncate -->
 
 2. Write some code
 

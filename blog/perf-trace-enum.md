@@ -5,9 +5,9 @@ authors: [howard]
 tags: [linux, perf, os]
 date: 2024-06-09
 ---
-# perf trace: Add support for enum arguments
-
 `perf trace` now supports pretty printing for enum arguments
+
+<!-- truncate -->
 
 Well, that been said, there is only one argument that can be pretty printed in all syscalls, which is `enum landlock_rule_type rule_type` from syscall `landlock_add_rule`.
 

@@ -5,8 +5,6 @@ authors: [howard]
 tags: [linux]
 date: 2023-09-06
 ---
-## Launch Elixir app with mix
-
 #### 0.5 define`main.ex`, use`mix run main.ex`(duplicates with 2.)
 main.ex:
 
@@ -15,6 +13,8 @@ defmodule Main do
   Server.main()
 end
 ```
+
+<!-- truncate -->
 
 server.ex:
 ```elixir

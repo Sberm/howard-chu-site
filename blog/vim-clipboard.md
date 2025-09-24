@@ -6,7 +6,6 @@ tags: [linux]
 date: 2023-09-17
 ---
 1. For Windows, download MobaXterm or Xming; for Mac, download XQuartz as the X server. After downloading, open the application.
-<!-- truncate -->
 > Note that on Mac XQuartz works after I uncheck the `Enable Syncing`, and check it back again. [Link](https://stackoverflow.com/questions/47822357/how-to-use-x11-forwarding-to-copy-from-vim-to-local-machine)
 > And tmux doesn't work well on Mac's default Terminal.app. For sharing clipboard you need to install [tmux-yank](https://github.com/tmux-plugins/tmux-yank) plugin
 2. In the server's SSH configuration file located at `/etc/ssh/sshd_config`, enable `X11Forwarding yes`.
@@ -19,6 +18,7 @@ PS C:\Users\Sberm> $env:DISPLAY="127.0.0.1:0.0"
 PS C:\Users\Sberm> echo $env:DISPLAY
 127.0.0.1:0.0
 ```
+<!-- truncate -->
 4. Use ssh -Y \<user\>@\<address\> for X forwarding (or ssh -X \<user\>@\<address\>; my Windows computer cannot use this).
 5. It is required to use a vim that supports X11. I'll use [Neovim](https://github.com/neovim/neovim) because it
    comes with everything, making the installation convenient. On CentOS, you

@@ -7,8 +7,6 @@ date: 2024-06-09
 ---
 `perf trace` now supports pretty printing for enum arguments
 
-<!-- truncate -->
-
 Well, that been said, there is only one argument that can be pretty printed in all syscalls, which is `enum landlock_rule_type rule_type` from syscall `landlock_add_rule`.
 
 This feature is implemented using the BPF Type Format.
@@ -19,6 +17,8 @@ perf $ ./perf trace -e landlock_add_rule
      0.000 ( 0.008 ms): ldlck-test/438194 landlock_add_rule(rule_type: 2)                                       = -1 EBADFD (File descriptor in bad state)
      0.010 ( 0.001 ms): ldlck-test/438194 landlock_add_rule(rule_type: 1)                                       = -1 EBADFD (File descriptor in bad state)
 ```
+
+<!-- truncate -->
 
 Just a number (`rule_type: 1`), kinda hard to understand if you don't look up syscall arguments.
 

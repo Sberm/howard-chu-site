@@ -8,8 +8,6 @@ date: 2024-10-10
 C++ standard library can be hard to read, using a debugger to help with learning can
 be a good approach.
 
-<!-- truncate -->
-
 My machine is a mac so this will be `clang`'s std library. And I'm using `lldb`
 because it's better supported than `gdb`. Here's how to do it.
 
@@ -17,6 +15,8 @@ Install `lldb`, typically use
 ```
 xcode-select --install
 ```
+
+<!-- truncate -->
 
 If you want to update installed tools through command line, use `softwareupdate` command line tool
 ```bash

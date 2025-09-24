@@ -1,1 +1,1 @@
-nginx -g "daemon off;" -c nginx.conf
+nginx -g "daemon off;"

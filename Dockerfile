@@ -10,7 +10,7 @@ COPY package.json package-lock.json .
 RUN npm install
 
 # source files
-COPY docusaurus.config.js sidebars.js start.sh .
+COPY docusaurus.config.js sidebars.js .
 COPY blog blog
 COPY docs docs
 COPY src src
@@ -20,5 +20,6 @@ RUN npm run build
 
 # copy nginx config file
 COPY nginx.conf /etc/nginx
+COPY start.sh .
 
 CMD ["sh", "start.sh"]

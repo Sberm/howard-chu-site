@@ -1,0 +1,2 @@
+customize blog list
+    # https://github.com/facebook/docusaurus/issues/2353

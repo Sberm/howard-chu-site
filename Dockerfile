@@ -20,6 +20,6 @@ RUN npm run build
 
 # copy nginx config file
 COPY nginx.conf /etc/nginx
-COPY start.sh .
+COPY nginx_start.sh .
 
-CMD ["sh", "start.sh"]
+CMD ["sh", "nginx_start.sh"]

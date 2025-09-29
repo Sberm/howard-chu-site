@@ -17,3 +17,5 @@ Stop
 ~~~bash
 docker stop homepage
 ~~~
+
+Put the resume of name `Haowei_Zhu_Resume.pdf` in `/docs/docs/pdf` for file download. If there's no such file, it may not build.

@@ -88,10 +88,10 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'blogs',
+            type: 'doc',
             position: 'left',
             label: 'Blog',
+            docId: 'blogs/index'
           },
           {
             type: 'dropdown',
@@ -99,7 +99,7 @@ const config = {
             position: 'left',
             items: [
               {
-                type: "doc",
+                type: 'doc',
                 label: 'Transgender.rs',
                 docId: 'trans/index',
               },
@@ -110,6 +110,12 @@ const config = {
             sidebarId: 'docs',
             position: 'left',
             label: 'Doc',
+          },
+          {
+            type: 'doc',
+            label: 'Resume',
+            position: 'left',
+            docId: 'docs/resume'
           },
           {
             href: 'https://github.com/sberm',

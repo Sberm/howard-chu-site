@@ -12,7 +12,7 @@ const ButtonList = [
     },
     {
         name: 'Resume',
-        url: '/static/pdf/Haowei_Zhu_Resume.pdf',
+        url: '/docs/docs/resume',
     },
 ];
 

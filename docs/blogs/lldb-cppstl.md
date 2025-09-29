@@ -4,6 +4,7 @@ title: Using lldb to read C++ standard library
 authors: [howard]
 tags: [llvm, os]
 date: 2024-10-10
+sidebar_position: -6
 ---
 C++ standard library can be hard to read, using a debugger to help with learning can
 be a good approach.

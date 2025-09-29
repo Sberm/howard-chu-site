@@ -3,7 +3,7 @@ slug: How to contribute to perf
 title: How to contribute to perf
 authors: [howard]
 tags: [linux, perf, os]
-date: 2024-06-25
+sidebar_position: -5
 ---
 #### TL;DR:
 

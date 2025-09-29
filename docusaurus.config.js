@@ -84,18 +84,35 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'Howard Chu Logo',
-          src: 'img/logo.svg',
+          src: 'img/neco-arc.jpeg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'docSideBar',
+            sidebarId: 'blogs',
+            position: 'left',
+            label: 'Blog',
+          },
+          {
+            type: 'dropdown',
+            label: 'Projects',
+            position: 'left',
+            items: [
+              {
+                type: "doc",
+                label: 'Transgender.rs',
+                docId: 'trans/index',
+              },
+            ],
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'docs',
             position: 'left',
             label: 'Doc',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/sberm/howard-chu-site',
+            href: 'https://github.com/sberm',
             label: 'GitHub',
             position: 'right',
           },
@@ -109,7 +126,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/docs/docs',
               },
             ],
           },
@@ -118,7 +135,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/sberm/howard-chu-site',
+                href: 'https://github.com/sberm',
               },
               {
                 label: 'X',
@@ -131,7 +148,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/docs/blogs',
               },
               {
                 label: 'Linkedin',

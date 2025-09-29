@@ -4,15 +4,15 @@ import Link from '@docusaurus/Link';
 const ButtonList = [
     {
         name: 'Blog',
-        url: '/blog',
+        url: '/docs/blogs',
     },
     {
         name: 'Doc',
-        url: '/docs/intro',
+        url: '/docs/docs',
     },
     {
         name: 'Resume',
-        url: '/blog',
+        url: '/static/pdf/Haowei_Zhu_Resume.pdf',
     },
 ];
 

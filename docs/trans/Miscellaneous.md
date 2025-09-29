@@ -1,3 +1,6 @@
+---
+sidebar_position: 5
+---
 ### Uninstallation
 
 if you want to uninstall `Transgender.rs`, run

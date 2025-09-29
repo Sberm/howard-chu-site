@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Docker Tricks
 Pass --rm to remove the container once it exits
 ~~~bash

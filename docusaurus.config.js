@@ -169,6 +169,9 @@ const config = {
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['bash', 'elixir']
       },
+      colorMode: {
+        respectPrefersColorScheme: true
+      },
     }),
 };
 
